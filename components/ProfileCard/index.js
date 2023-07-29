@@ -60,8 +60,9 @@ export function ProfileCard() {
         <Image
           src={'/static/images/xr.jpg'}
           alt="avatar"
-          width={500}
-          height={500}
+          priority
+          width={1158}
+          height={1622}
           style={{
             objectPosition: '50% 16%',
             objectFit: 'cover',
@@ -69,7 +70,6 @@ export function ProfileCard() {
             aspectRatio: '14/15',
           }}
         />
-        {/* <SpotifyNowPlaying /> */}
         <ProfileCardInfo />
         <span className="h-1.5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
       </div>

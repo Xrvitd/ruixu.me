@@ -3,11 +3,11 @@ export function Recent() {
     <div className="pt-10 p-4">
       <h1 className="font-bold text-xl pb-3">News and Updates</h1>
       <div className="flex flex-col space-y-1.5 text-base">
-        <span className="text-red-700 font-bold">
+        <span className="text-red-600 font-bold">
           New: I am looking for Ph.D. to start in Fall 2024. Contact me if you
           have any leads!
         </span>
-        <span className="text-red-700 font-bold">
+        <span className="text-red-600 font-bold">
           07/2023. Our paper &quot;GCNO&quot; got the SIGGRAPH 2023 Technical
           Papers Best Paper Award!!!
         </span>
