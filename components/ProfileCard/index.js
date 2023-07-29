@@ -70,7 +70,16 @@ export function ProfileCard() {
             aspectRatio: '14/15',
           }}
         />
-        <ProfileCardInfo />
+        <div className="px-6 py-4">
+          <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
+            Rui Xu (徐瑞)
+          </h3>
+          <h5 className="py-2 text-gray-700 dark:text-gray-400">
+            Master Student
+          </h5>
+          <ProfileCardInfo />
+        </div>
+
         <span className="h-1.5 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"></span>
       </div>
     </div>

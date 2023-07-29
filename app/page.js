@@ -6,6 +6,7 @@ import { Recent } from './components/Recent'
 import TalksAndInternships from './components/TalksAndInternships'
 import Twemoji from '@/components/Twemoji'
 import Publications from '@/components/Publications'
+import { ProfileCardInfo } from '@/components/ProfileCard/ProfileCardInfo'
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
           <Greeting />
           <div className="text-lg leading-8 text-gray-600 dark:text-gray-400">
             <Intro />
+            <div className="xl:hidden px-2 py-2">
+              <ProfileCardInfo />
+            </div>
             <Recent />
           </div>
         </div>

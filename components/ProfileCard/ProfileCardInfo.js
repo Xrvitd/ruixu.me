@@ -2,11 +2,7 @@ import { Twemoji } from 'components/Twemoji'
 
 export function ProfileCardInfo() {
   return (
-    <div className="hidden py-4 xl:block xl:px-6">
-      <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
-        Rui Xu (徐瑞)
-      </h3>
-      <h5 className="py-2 text-gray-700 dark:text-gray-400">Master Student</h5>
+    <>
       <div className="mb-2 mt-4 space-y-4">
         <div className="flex items-center text-gray-700 dark:text-gray-200">
           <svg
@@ -168,6 +164,6 @@ export function ProfileCardInfo() {
           </p>
         </div>
       </div>
-    </div>
+    </>
   )
 }
