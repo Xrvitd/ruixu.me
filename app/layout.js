@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="mx-auto max-w-3xl px-3 sm:px-6 xl:max-w-5xl xl:px-0 bg-white text-black antialiased dark:bg-dark dark:text-white">
+      <body className="mx-auto max-w-3xl px-3 sm:px-6 xl:max-w-5xl xl:px-0 bg-white text-black antialiased ">
         <div className="flex flex-col justify-between">
           <main style={{ minHeight: MAIN_CONTENT_MIN_HEIGHT }}>{children}</main>
         </div>

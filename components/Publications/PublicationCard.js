@@ -4,7 +4,7 @@ export default function PublicationCard({ data }) {
   const { image, title, authors, journal, highlightInfo, links } = data
 
   return (
-    <li className="flex flex-col  md:flex-row p-4 border border-gray-300 hover:border-gray-400 ">
+    <li className="flex flex-col   md:flex-row p-4 border border-gray-300 hover:border-gray-400 ">
       <div className="md:w-1/4 flex items-center ">
         <Image
           src={image.src}
@@ -13,7 +13,7 @@ export default function PublicationCard({ data }) {
           height={image.height}
         />
       </div>
-      <div className="md:w-3/4 pl-5 flex flex-col justify-between space-y-1 py-2">
+      <div className="md:w-3/4 md:pl-5 flex flex-col justify-between space-y-1 py-2">
         <div className="space-y-1">
           <p>
             {title.highlight && (
@@ -51,12 +51,12 @@ export default function PublicationCard({ data }) {
             </div>
           )}
           {links && links.length > 0 && (
-            <p className="space-x-3 whitespace-normal">
+            <p className="space-x-3 ">
               {links.map(({ text, url }) => (
                 <a
                   key={text}
                   href={url}
-                  className="text-gray-500 hover:underline"
+                  className="text-gray-500 hover:underline whitespace-nowrap"
                 >
                   [ {text} ]
                 </a>

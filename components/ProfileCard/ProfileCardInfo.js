@@ -4,7 +4,7 @@ export function ProfileCardInfo() {
   return (
     <>
       <div className="mb-2 mt-4 space-y-4">
-        <div className="flex items-center text-gray-700 dark:text-gray-200">
+        <div className="flex items-center text-gray-700 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -34,7 +34,7 @@ export function ProfileCardInfo() {
             </a>
           </p>
         </div>
-        <div className="flex items-center text-gray-700 dark:text-gray-200">
+        <div className="flex items-center text-gray-700 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
@@ -63,7 +63,7 @@ export function ProfileCardInfo() {
             </span>
           </p>
         </div>
-        <div className="flex items-center text-gray-700 dark:text-gray-200">
+        <div className="flex items-center text-gray-700 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -90,7 +90,7 @@ export function ProfileCardInfo() {
             xrvitd
           </a>
         </div>
-        <div className="flex items-center text-gray-700 dark:text-gray-200">
+        <div className="flex items-center text-gray-700 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
@@ -110,7 +110,7 @@ export function ProfileCardInfo() {
           </a>
         </div>
 
-        <div className="flex items-center  text-gray-700 dark:text-gray-200">
+        <div className="flex items-center  text-gray-700 ">
           <p className="flex space-x-3 px-2 pl-4 justify-end w-full">
             <a
               target="_blank"
@@ -137,7 +137,7 @@ export function ProfileCardInfo() {
                 </g>
               </svg>
             </a>
-            <span className="text-gray-400 dark:text-gray-500">|</span>
+            <span className="text-gray-400 ">|</span>
             <a
               target="_blank"
               href="https://twitter.com/xrvitd"

@@ -55,7 +55,7 @@ export function ProfileCard() {
     >
       <div
         style={style}
-        className="flex flex-col overflow-hidden bg-white shadow-cyan-100/50 transition-all duration-200 ease-out dark:bg-dark dark:shadow-cyan-700/50 xl:rounded-lg xl:shadow-lg"
+        className="flex flex-col overflow-hidden bg-white shadow-cyan-100/50 transition-all duration-200 ease-out xl:rounded-lg xl:shadow-lg"
       >
         <Image
           src={'/static/images/xr.jpg'}
@@ -71,12 +71,10 @@ export function ProfileCard() {
           }}
         />
         <div className="px-6 py-4">
-          <h3 className="text-xl font-semibold text-gray-800 dark:text-white">
+          <h3 className="text-xl font-semibold text-gray-800 ">
             Rui Xu (徐瑞)
           </h3>
-          <h5 className="py-2 text-gray-700 dark:text-gray-400">
-            Master Student
-          </h5>
+          <h5 className="py-2 text-gray-700 ">Master Student</h5>
           <ProfileCardInfo />
         </div>
 
