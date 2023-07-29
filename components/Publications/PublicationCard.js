@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { Author } from '../Author'
 
 export default function PublicationCard({ data }) {
   const { image, title, authors, journal, highlightInfo, links } = data
@@ -30,9 +31,9 @@ export default function PublicationCard({ data }) {
           </p>
           <p className="text-gray-700 leading-5">
             {data.authors.map((author, index) => (
-              <span key={author}>
+              <Author key={author}>
                 {` ${author} ${index !== data.authors.length - 1 ? ',' : ''}`}
-              </span>
+              </Author>
             ))}
           </p>
         </div>

@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import 'css/twemoji.css'
 import { MAIN_CONTENT_MIN_HEIGHT } from 'constant'
+import { Footer } from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
       <body className="mx-auto max-w-3xl px-3 sm:px-6 xl:max-w-5xl xl:px-0 bg-white text-black antialiased ">
         <div className="flex flex-col justify-between">
           <main style={{ minHeight: MAIN_CONTENT_MIN_HEIGHT }}>{children}</main>
+          <Footer />
         </div>
       </body>
     </html>

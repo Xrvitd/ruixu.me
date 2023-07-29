@@ -1,6 +1,6 @@
 import Image from 'next/image'
-import { pubList } from './pubList'
 import PublicationCard from './PublicationCard'
+import pubList from '@/data/pubList'
 
 export default function Publications() {
   return (

@@ -1,4 +1,4 @@
-export const pubList = [
+const pubList = [
   {
     image: {
       src: '/static/images/GCNO.jpg',
@@ -207,7 +207,7 @@ export const pubList = [
       'Wenping Wang',
     ],
     journal: {
-      normal: 'Computer Graphics Forum..',
+      normal: 'Computer Graphics Forum.',
       highlight: 'Eurographics 2022.',
     },
     links: [
@@ -277,3 +277,5 @@ export const pubList = [
     },
   },
 ]
+
+export default pubList
