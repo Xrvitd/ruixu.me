@@ -252,9 +252,9 @@ export const pubList = [
   },
   {
     image: {
-      src: '/static/images/GCNO-head.jpg',
+      src: '/static/images/Top-Down_Shape.jpg',
       width: 650,
-      height: 434,
+      height: 364,
     },
     title: {
       normal: 'Top-Down Shape Abstraction Based on Greedy Pole Selection',
