@@ -9,7 +9,8 @@ const pubList = [
       normal:
         'Globally Consistent Normal Orientation for Point Clouds by Regularizing the Winding-Number Field',
       highlight: 'NEW!',
-      link: 'https://dl.acm.org/doi/10.1145/3386569.3392464',
+      // link: 'https://xrvitd.github.io/Projects/GCNO/index.html',
+      link: './posts/gcno',
     },
     authors: [
       'Rui Xu',
@@ -87,17 +88,17 @@ const pubList = [
     },
     title: {
       normal: 'RFEPS: Reconstructing Feature-line Equipped Polygonal Surface',
-      link: 'https://dl.acm.org/doi/10.1145/3386569.3392464',
+      link: 'https://xrvitd.github.io/Projects/RFEPS/index.html',
     },
     authors: [
       'Rui Xu',
       'Zixiong Wang',
       'Zhiyang Dou',
       'Chen Zong',
-      'Shiqing Xin*',
+      'Shiqing Xin',
       'Mingyan Jiang',
       'Tao Ju',
-      'Changhe Tu*',
+      'Changhe Tu',
     ],
     journal: {
       normal: 'ACM Transactions on Graphics.',

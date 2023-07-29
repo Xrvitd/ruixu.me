@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Author } from '../Author'
+import Link from 'next/link'
 
 export default function PublicationCard({ data }) {
   const { image, title, authors, journal, highlightInfo, links } = data
@@ -22,12 +23,12 @@ export default function PublicationCard({ data }) {
                 {title.highlight}
               </span>
             )}
-            <a
+            <Link
               href={data.title.link}
               className="text-lg font-bold text-gray-800 hover:underline"
             >
               {data.title.normal}
-            </a>
+            </Link>
           </p>
           <p className="text-gray-700 leading-5">
             {data.authors.map((author, index) => (
